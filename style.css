@@ -29,7 +29,7 @@ body.visible {
 }
 
 .brand {
-  margin-top: 200px;
+  margin-top: 100px;
   text-align: left;
 }
 
@@ -55,8 +55,10 @@ body.visible {
 }
 
 .entries {
-  margin-top: 150px;
-  margin-bottom: 100px;
+  margin: 150px 50px 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .entry {
@@ -69,6 +71,8 @@ body.visible {
   opacity: 0.75;
   transition: opacity 0.2s ease;
   cursor: pointer;
+  margin: 10px;
+  white-space: nowrap;
 }
 
 .entry .entry-desc {
