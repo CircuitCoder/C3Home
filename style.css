@@ -83,3 +83,7 @@ body.visible {
 .entry:hover {
   opacity: 1;
 }
+
+.entry:last-child {
+  margin-bottom: 60px;
+}
